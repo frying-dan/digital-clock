@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #4C4B16, #898121);
+}
+
+.clock {
+    width: 650px;
+    height: 160px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock div {
+    position: relative;
+    background-color: #ffffff;
+    height: 100%;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+    letter-spacing: 3px;
+}
+
+.clock span {
+    font-weight: 600;
+    font-size: 49px;
+    color: #ffffff;
+}
